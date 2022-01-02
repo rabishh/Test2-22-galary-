@@ -1,0 +1,34 @@
+header{
+    text-align:center;
+}
+nav{
+    gap:30px;
+    background-color: burlywood;
+    display:flex;
+    justify-content: space-between;
+}
+input{
+    width:50%;
+}
+a{
+    text-decoration:none;
+    padding:15px;
+}
+.item{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items:center;
+    background-color:lightgray;
+    height:100vh;
+}
+img{
+    max-width:400px;
+    min-width:200px;
+    height:200px;
+    transition:.5s all;
+}
+.img2:hover{
+    transform:scale(9);
+    margin-top:4rem;
+}
